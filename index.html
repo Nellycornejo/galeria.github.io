@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Arte</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Galería de Arte</h1>
+    </header>
+    <main>
+        <section class="products">
+            <h1>MIS PRODUCTOS:</h1>
+            <div id="products-container"></div>
+            <p id="no-products-message">No se han agregado productos</p>
+        </section>
+        <section class="add-product">
+            <h1>AGREGAR PRODUCTO:</h1>
+            <form id="add-product-form">
+                <input type="text" id="product-name" placeholder="nombre..." required>
+                <input type="number" id="product-price" placeholder="precio..." required>
+                <input type="text" id="product-image" placeholder="imagen..." required>
+                <div class="form-buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img src="assets/aluralogo.png" alt="Logo">
+        <p>Desarrollado por Nelly Alison Cornejo Orozco</p>
+        <p>&copy; 2024 Para Alura</p>
+    </footer>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

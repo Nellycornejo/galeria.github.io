@@ -1,0 +1,158 @@
+body {
+    font-family: 'Kalnia Glaze', cursive;
+    background-color: #f5e1da;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1abd5;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.products {
+    width: 60%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff5f0;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+.add-product {
+    width: 35%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff5f0;
+    border-radius: 8px;
+}
+
+.products h1, .add-product h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+    max-height: 50vh;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 2px solid #ebd9e6;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 1rem;
+    color: #4a4a4a;
+}
+
+.card p {
+    font-size: 0.875rem;
+    color: #a37567;
+}
+
+.card .delete-button {
+    background-color: #a37567;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card .delete-button:hover {
+    background-color: #d9534f;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+form input, form button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #a37567;
+    border-radius: 5px;
+    font-family: 'Kalnia Glaze', cursive;
+}
+
+form button {
+    background-color: #4a4a4a;
+    color: #ffffff;
+}
+
+form button:hover {
+    background-color: #fbceff;
+}
+
+footer {
+    background-color: #ffc4f0;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products, .add-product {
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Mujer con sombrilla",
+        "price": 220,
+        "image": "assets/mujer.png"
+      },
+      {
+        "id": 2,
+        "name": "Impresión, sol naciente",
+        "price": 320,
+        "image": "assets/impresion_sol_naciente.png"
+      },
+      {
+        "id": 3,
+        "name": "Nenúfares",
+        "price": 250,
+        "image": "assets/nenufares.png"
+      }
+    ]
+  }
+  
